@@ -59,3 +59,7 @@ public class ElectricityBillingSystem {
         System.out.println("-------------------------------------------------------");
         System.out.println("BILLING DETAILS");
         System.out.printf("Basic Energy Charge : P%,.2f\n", basicEnergyCharge);
+
+        scanner.close(); // close to prevent leak
+    }
+}
