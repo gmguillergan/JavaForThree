@@ -1,0 +1,16 @@
+# NetBeans private and machine-specific files
+**/nbproject/private/
+**/nbproject/*.lock
+
+# Build outputs
+**/build/
+**/dist/
+*.class
+
+# IDE and OS metadata
+.idea/
+*.iml
+out/
+.vscode/
+.DS_Store
+Thumbs.db
